@@ -1,0 +1,112 @@
+/**
+ * Media Query Style Exercise: Solved;
+ **/
+
+* {
+  box-sizing: border-box;
+}
+
+.myotherstuff{
+  max-width: 100%;
+}
+
+.myclass {
+  max-width: 50%;
+  max-height: 50%;
+  border: black;
+  margin-right: 5%;
+  margin-bottom: 2.5%;
+  float: left;
+  
+}
+
+.myclass1 {
+  max-width: 50%;
+  max-height: 50%;
+  
+}
+
+.myclass {
+  max-width: auto;
+  max-height: auto;
+  max-width: 50%;
+  max-height: 50%;
+  text-align: center;
+  
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+
+footer{
+  text-align: center;
+}
+body {
+  background-image: url(../Images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  margin-top: 2.5%;
+  /* Set the hr color */
+  color: #333; /* old IE */
+  background-color: #333; /* Modern Browsers */
+}
+
+.nav_master {
+  background-image: url(../Images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mybrand {
+  background-color: cadetblue;
+  max-width: 100%;
+}
+/*
+  The background color will be #ccc
+  at browser widths above 768px
+*/
+
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	#first {
+		order: 2;
+	}
+	#second {
+		order: 4;
+	}
+	#third {
+		order: 1;
+	}
+	#fourth {
+		order: 3;
+	}
+}
+
+/* Additional Screen Sizes */
+
+/* Width at 640px and below */
+@media screen and (max-width: 640px) {
+  
+  .myclass {
+    max-width: 100%;
+    max-height: 100%;
+    border: black;
+    margin-right: 5%;
+    margin-bottom: 2.5%;
+    float: none;
+  }
+}
